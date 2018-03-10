@@ -19,6 +19,10 @@ class ProductList extends React.Component {
         return product;
       }
     });
+    
+    this.setState({
+      products: nextProducts,
+    });
   }
 
   render() {
